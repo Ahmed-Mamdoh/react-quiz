@@ -1,9 +1,6 @@
 
 ---
 
-# 🧠 react-quiz  
-
-```markdown
 # 🧠 React Quiz
 
 A fun quiz app that tests your knowledge with multiple-choice questions. Features a timer, scoring, and progress tracking.
