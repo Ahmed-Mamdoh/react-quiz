@@ -10,15 +10,13 @@ import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 import { useQuiz } from "../context/QuizContext";
+import questions from "../data/questions.json";
 
 export default function App() {
   const { status, dispatch } = useQuiz();
 
   useEffect(() => {
-    fetch("http://localhost:8000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
+    dispatch({ type: "dataReceived", payload: questions.questions });
   }, [dispatch]);
 
   return (
