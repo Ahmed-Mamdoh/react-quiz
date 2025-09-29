@@ -24,9 +24,5 @@ A fun quiz app that tests your knowledge with multiple-choice questions. Feature
 ![image (3)](https://github.com/user-attachments/assets/ac39a088-9206-40eb-b843-8761a3767b3c)
 
 
-## 🚀 Getting Started
-```bash
-git clone https://github.com/Ahmed-Mamdoh/react-quiz.git
-cd react-quiz
-npm install
-npm start
+## 🌐 Live Demo
+[React-Quiz](https://react-quiz-nine-alpha.vercel.app/)
